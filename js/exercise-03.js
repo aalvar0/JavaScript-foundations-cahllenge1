@@ -1,6 +1,6 @@
 /* 
-    1. Define function 'getTypeOf', which receives a value as paramenter and returns the type of this value
-        Use typeof to ckech the types for each of the main 5 primitive types (string, number, boolean, null, undefined)
+    1. Define function 'getTypeOf', which receives a value as parameter and returns the type of this value
+        Use typeof to check the types for each of the main 5 primitive types (string, number, boolean, null, undefined)
     2. Log the result of any function call.
 */
 
@@ -8,11 +8,11 @@ function getTypeOf(value) {
     return typeof value;
 }
 
-console.log(getTypeOf(5));
-console.log(getTypeOf('Alvaro'));
-console.log(getTypeOf(false));
-console.log(getTypeOf(null));
-console.log(getTypeOf(undefined));
-console.log(getTypeOf({}));
-console.log(getTypeOf([]));
-console.log(getTypeOf(function () { })); 
+console.log(getTypeOf(5)); // Output: number
+console.log(getTypeOf('Alvaro')); // Output: string
+console.log(getTypeOf(false)); // Output: boolean
+console.log(getTypeOf(null)); // Output: object
+console.log(getTypeOf(undefined)); // Output: undefined
+console.log(getTypeOf({})); // Output: object
+console.log(getTypeOf([])); // Output: object
+console.log(getTypeOf(5)); // Output: number

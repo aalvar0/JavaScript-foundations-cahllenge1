@@ -9,17 +9,17 @@
    Log out each variable to the terminal at the end.
 */
 
-const string = "Alvaro";
-console.log('String:', string);
+const constString = "Alvaro";
+console.log('String:', constString);
 
-const number = 5;
-console.log('Number:', number);
+const constNumber = 5;
+console.log('Number:', constNumber);
 
-const boolean = false;
-console.log('Boolean:', boolean);
+const constBoolean = false;
+console.log('Boolean:', constBoolean);
 
-const Null = null;
-console.log('Null:', Null);
+const constNull = null;
+console.log('Null:', constNull);
 
-const Undefined = undefined;
-console.log('Undefined', Undefined);
+const constUndefined = undefined;
+console.log('Undefined', constUndefined);
