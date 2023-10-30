@@ -10,13 +10,13 @@
 
 */
 
-let $name = 'Alvaro Herranz';
+let $name = "Alvaro Herranz";
 
 function updateValue(value) {
-    $name = value;
+  $name = value;
 }
 
-updateValue('Feid');
+updateValue("Feid");
 console.log($name);
 
 updateValue(false);
