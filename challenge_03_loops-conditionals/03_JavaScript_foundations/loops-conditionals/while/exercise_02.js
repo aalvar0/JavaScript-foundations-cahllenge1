@@ -19,22 +19,22 @@
     All, done!
 */
 
-let counter = 1;
+let loopNumber = 1;
 
-while (counter <= 100) {
-  if (counter % 10 === 0) {
-    console.log("Checkpoint!", counter);
+while (loopNumber <= 100) {
+  if (loopNumber % 10 === 0 && loopNumber !== 100) {
+    console.log("Checkpoint!", loopNumber);
   }
 
-  if (counter === 50) {
-    console.log("Half way there!");
+  if (loopNumber === 50) {
+    console.log("Halfway there!");
   }
 
-  if (counter === 100) {
+  if (loopNumber === 100) {
     console.log("You made it!");
   }
 
-  counter++;
+  loopNumber++;
 }
 
 console.log("All, done!");

@@ -19,16 +19,16 @@
     All, done!
 */
 
-for (let i = 1; i <= 100; i++) {
-  if (i % 10 === 0 && i !== 50) {
-    console.log("Checkpoint!", i);
+for (let number = 1; number <= 100; number++) {
+  if (number % 10 === 0 && number !== 50) {
+    console.log("Checkpoint!", number);
   }
 
-  if (i === 50) {
+  if (number === 50) {
     console.log("Half way there!");
   }
 
-  if (i === 100) {
+  if (number === 100) {
     console.log("You made it!");
   }
 }
