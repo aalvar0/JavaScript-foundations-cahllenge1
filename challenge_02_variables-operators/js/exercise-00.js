@@ -10,16 +10,16 @@
 */
 
 const constString = "Alvaro";
-console.log('String:', constString);
+console.log("String:", constString);
 
 const constNumber = 5;
-console.log('Number:', constNumber);
+console.log("Number:", constNumber);
 
 const constBoolean = false;
-console.log('Boolean:', constBoolean);
+console.log("Boolean:", constBoolean);
 
 const constNull = null;
-console.log('Null:', constNull);
+console.log("Null:", constNull);
 
 const constUndefined = undefined;
-console.log('Undefined', constUndefined);
+console.log("Undefined", constUndefined);

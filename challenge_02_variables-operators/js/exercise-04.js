@@ -25,7 +25,5 @@ true || console.log("hello friend"); // Output: None
 false || console.log("bye friend"); // Output: "bye friend"
 // Since the condition is false, it executes the statement after ||.
 
-
-
 //This happens because with the && operator, both parts must be true for the second part to be executed.
 //This happens because with the || operator, only one of the parts needs to be true for the second part to be executed.
